@@ -2,11 +2,17 @@
 **On-board diagnostics:**
 On-board diagnostics (OBD) is a vehicle's self-diagnostic and reporting capability. OBD systems give the vehicle owner or a repair technician access to the status of the various vehicle subsystems.\
 We are dealing with obd 2.
+\
+\
+\
 
 **Problem statement:**
 We request certain parameter values from car diagnostics obd and store those parameter values from time to time.\
 We are using ELM327 obd adapter (connector from car obd to pc).\
 The ELM327 is connected between car’s obd to raspberry pi.\
+\
+\
+\
 
 The ELM327 is a programmed microcontroller produced by ELM Electronics for translating the on-board diagnostics (OBD) interface found in most modern cars\
 
@@ -29,6 +35,8 @@ Parameters supported by ELM327 :\
 16.Oxygen sensor voltages/associated short term fuel trims\
 17.Fuel System status\
 18.Fuel Pressure\
+\
+\
 To know more about ELM327 refer[ELM327](https://en.wikipedia.org/wiki/ELM327) webiste.
 
 
@@ -41,6 +49,9 @@ We used open source library library for dealing with obd 2 and ELM327 i.e, pyobd
  [PYOBD ](https://python-obd.readthedocs.io/en/latest/) source.
 
 
+\
+\
+\
 
 **STEP2:**\
 Reading the parameter value from obd and displaying in 
@@ -51,7 +62,9 @@ Refer to code(obd_values_display.py).\
 
 
 
-
+\
+\
+\
 
 **STEP3:**\
 Continuously display the values when there is connection.\
@@ -69,6 +82,9 @@ There is code given by obd when there is a request
 to  fuel_level and fuel_type.\
 #Refer to code(obd_values_display.py)\
 
+\
+\
+\
 
 
 
