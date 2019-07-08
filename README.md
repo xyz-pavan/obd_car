@@ -84,7 +84,7 @@ to  fuel_level and fuelhttps://github.com/xyz-pavan/obd_car/blob/master/Selectio
 #Refer to code(obd_values_display.py)\
 ![alt text](https://github.com/xyz-pavan/obd_car/blob/master/Selection_003.png)
 \
-above the code temp.py is actually obd_values_display.py.
+In the above code temp.py is actually obd_values_display.py.
 Here the car is not connected so the obd is giving empty code (NULL CODE).
 
 \
