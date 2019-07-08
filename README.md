@@ -33,7 +33,7 @@ To know more about ELM327 refer[ELM327](https://en.wikipedia.org/wiki/ELM327) we
 
 
 
-"STEP1:"\
+##STEP1:"\
 Serial Connection between Car’s obd and raspberry pi.\
 Checking the communication between obd and raspberry pi.\
 Refer to code(obd_port_connection).\
