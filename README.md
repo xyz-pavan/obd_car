@@ -83,11 +83,15 @@ There is code given by obd when there is a request
 to  fuel_level and fuelhttps://github.com/xyz-pavan/obd_car/blob/master/Selection_003.png_type.\
 #Refer to code(obd_values_display.py)\
 ![alt text](https://github.com/xyz-pavan/obd_car/blob/master/Selection_003.png)
+In the above code temp.py is actually obd_values_display.py.\
+Here the car is not connected so the obd is giving empty code (NULL CODE).
+\
+\ 
+\
 \
 
 If you want to request all paramters supported by ELM327 refer to code [obd_all_parameters.py](https://github.com/xyz-pavan/obd_car/blob/master/obd_all_parameters.py)\
-In the above code temp.py is actually obd_values_display.py.
-Here the car is not connected so the obd is giving empty code (NULL CODE).
+
 
 \
 \
