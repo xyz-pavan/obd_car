@@ -9,43 +9,42 @@ The ELM327 is connected between car’s obd to raspberry pi.
 We request certain parameter values from obd and store those parameter values from time to time.
 The ELM327 is a programmed microcontroller produced by ELM Electronics for translating the on-board diagnostics (OBD) interface found in most modern cars
 
-Parameters supported by ELM327 :
-#1.Read diagnostic trouble codes, both generic and manufacturer-specific, and display their meaning (over 3000 generic code #definitions in the database).
-#2.Clear trouble codes and turn off the MIL (Malfunction Indicator Light", more commonly known as the "Check Engine Light")
-#3.Display current sensor data
-#4.Engine RPM
-#5.Calculated Load Value
-#6.Coolant Temperature
-#7.Fuel System Status
-#8.Vehicle Speed
-#9.Short Term Fuel Trim
-#10.Long Term Fuel Trim
-#11.Intake Manifold Pressure
-#12.Timing Advance
-#13.Intake Air Temperature
-#14.Air Flow Rate
-#15.Absolute Throttle Position
-#16.Oxygen sensor voltages/associated short term fuel trims
-#17.Fuel System status
-#18.Fuel Pressure
-
+Parameters supported by ELM327 :\
+1.Read diagnostic trouble codes, both generic and manufacturer-specific, and display their meaning (over 3000 generic code definitions in the database).\
+2.Clear trouble codes and turn off the MIL (Malfunction Indicator Light", more commonly known as the "Check Engine Light")\
+3.Display current sensor data\
+4.Engine RPM\
+5.Calculated Load Value\
+6.Coolant Temperature\
+7.Fuel System Status\
+8.Vehicle Speed\
+9.Short Term Fuel Trim\
+10.Long Term Fuel Trim\
+11.Intake Manifold Pressure\
+12.Timing Advance\
+13.Intake Air Temperature\
+14.Air Flow Rate\
+15.Absolute Throttle Position\
+16.Oxygen sensor voltages/associated short term fuel trims\
+17.Fuel System status\
+18.Fuel Pressure\
 
 
 
 
 STEP1:
-#Serial Connection between Car’s obd and raspberry pi.
-#Checking the communication between obd and raspberry pi.
-#Refer to code(obd_port_connection).
+Serial Connection between Car’s obd and raspberry pi.
+Checking the communication between obd and raspberry pi.
+Refer to code(obd_port_connection).
 
 
 
 
 STEP2:
-#Reading the parameter value from obd and displaying in 
-#Raspberry pi terminal .
-#We are communicating with raspberry pi in the car using ssh 
-#Refer to code(test.py).
+Reading the parameter value from obd and displaying in 
+Raspberry pi terminal .
+We are communicating with raspberry pi in the car using ssh 
+Refer to code(test.py).
 
 
 
@@ -58,10 +57,10 @@ STEP3:
 #There is delay of 0.3 seconds between each parameter request because
 #Only 5 requests can be done from  in 1 second .
 #The parameters we displayed are :
-#1.RPM
-#2.SPEED
-#3.COOLANT TEMPERATURE
-#4.ENGINE_LOAD
+#1.RPM\
+#2.SPEED\
+#3.COOLANT TEMPERATURE\
+#4.ENGINE_LOAD\
 #5.Fuel_level.
 #Fuel level is not supported by the car we are testing.
 #There is code given by obd when there is a request 
