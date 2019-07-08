@@ -4,7 +4,7 @@ On-board diagnostics (OBD) is a vehicle's self-diagnostic and reporting capabili
 We are dealing with obd 2.
 
 Problem statement:
-We request certain parameter values from car diagnostics obd and store those parameter values from time to time.
+We request certain parameter values from car diagnostics obd and store those parameter values from time to time.\
 We are using ELM327 obd adapter (connector from car obd to pc).\
 The ELM327 is connected between car’s obd to raspberry pi.\
 
@@ -29,7 +29,7 @@ Parameters supported by ELM327 :\
 16.Oxygen sensor voltages/associated short term fuel trims\
 17.Fuel System status\
 18.Fuel Pressure\
-
+To know more about ELM327 refer[ELM327](https://en.wikipedia.org/wiki/ELM327) webiste.
 
 
 
@@ -46,7 +46,7 @@ STEP2:\
 Reading the parameter value from obd and displaying in 
 Raspberry pi terminal .\
 We are communicating with raspberry pi in the car using ssh \
-Refer to code(test.py).\
+Refer to code(obd_values_display.py).\
 
 
 
