@@ -8,6 +8,10 @@ We are using ELM327 obd adapter (connector from car obd to pc).
 The ELM327 is connected between car’s obd to raspberry pi.
 We request certain parameter values from obd and store those parameter values from time to time.
 
+
+
+
+
 STEP1:
 Serial Connection between Car’s obd and raspberry pi.
 Checking the communication between obd and raspberry pi.
@@ -15,11 +19,18 @@ Refer to code(obd_port_connection).
 We are using pyobd library for this task.
 
 
+
+
+
+
 STEP2:
 Reading the parameter value from obd and displaying in 
 Raspberry pi terminal .
 We are communicating with raspberry pi in the car using ssh 
 Refer to code(test.py).
+
+
+
 
 
 
@@ -38,6 +49,10 @@ Fuel level is not supported by the car we are testing.
 There is code given by obd when there is a request 
 to  fuel_level and fuel_type.
 Refer to code(obd_values_display.py)
+
+
+
+
 Step4:
 We are continuously displaying the values of the parameters when is 
 an  available connection between obd and raspberry pi.
