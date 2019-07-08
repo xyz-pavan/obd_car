@@ -82,7 +82,7 @@ Fuel level is not supported by the car we are testing.\
 There is code given by obd when there is a request 
 to  fuel_level and fuelhttps://github.com/xyz-pavan/obd_car/blob/master/Selection_003.png_type.\
 #Refer to code(obd_values_display.py)\
-[!alt text](https://github.com/xyz-pavan/obd_car/blob/master/Selection_003.png)
+![alt text](https://github.com/xyz-pavan/obd_car/blob/master/Selection_003.png)
 \
 \
 \
