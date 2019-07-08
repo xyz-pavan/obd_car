@@ -44,7 +44,7 @@ To know more about ELM327 refer[ELM327](https://en.wikipedia.org/wiki/ELM327) we
 **STEP1:**"\
 Serial Connection between Car’s obd and raspberry pi.\
 Checking the communication between obd and raspberry pi.\
-Refer to code(obd_port_connection).\
+Refer to code([obd_port_connection.py](https://github.com/xyz-pavan/obd_car/blob/master/obd_port_connection.py)).\
 We used open source library library for dealing with obd 2 and ELM327 i.e, pyobd.
  [PYOBD ](https://python-obd.readthedocs.io/en/latest/) source.
 
