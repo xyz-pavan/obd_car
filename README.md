@@ -58,7 +58,7 @@ We used open source library library for dealing with obd 2 and ELM327 i.e, pyobd
 Reading the parameter value from obd and displaying in 
 Raspberry pi terminal .\
 We are communicating with raspberry pi in the car using ssh \
-Refer to code(obd_values_display.py).\
+Refer to code([obd_values_display.py](https://github.com/xyz-pavan/obd_car/blob/master/obd_values_display.py)).\
 
 
 
@@ -96,7 +96,7 @@ Here the car is not connected so the obd is giving empty code (NULL CODE).
 We are continuously displaying the values of the parameters when is 
 an  available connection between obd and raspberry pi.\
 Now we store the values that are requested into a text file until there is a connection between raspberry pi and OBD .\
-Refer to the code(obd_values_store.py).
+Refer to the code([obd_values_store.py](https://github.com/xyz-pavan/obd_car/blob/master/obd_values_store.py)).
 
 
 
