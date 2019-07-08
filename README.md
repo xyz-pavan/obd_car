@@ -1,9 +1,9 @@
 # obd_car
-On-board diagnostics:
+**On-board diagnostics:**
 On-board diagnostics (OBD) is a vehicle's self-diagnostic and reporting capability. OBD systems give the vehicle owner or a repair technician access to the status of the various vehicle subsystems.\
 We are dealing with obd 2.
 
-Problem statement:
+**Problem statement:**
 We request certain parameter values from car diagnostics obd and store those parameter values from time to time.\
 We are using ELM327 obd adapter (connector from car obd to pc).\
 The ELM327 is connected between car’s obd to raspberry pi.\
@@ -33,7 +33,7 @@ To know more about ELM327 refer[ELM327](https://en.wikipedia.org/wiki/ELM327) we
 
 
 
-##STEP1:"\
+**STEP1:**"\
 Serial Connection between Car’s obd and raspberry pi.\
 Checking the communication between obd and raspberry pi.\
 Refer to code(obd_port_connection).\
@@ -42,7 +42,7 @@ We used open source library library for dealing with obd 2 and ELM327 i.e, pyobd
 
 
 
-STEP2:\
+**STEP2:**\
 Reading the parameter value from obd and displaying in 
 Raspberry pi terminal .\
 We are communicating with raspberry pi in the car using ssh \
@@ -53,9 +53,9 @@ Refer to code(obd_values_display.py).\
 
 
 
-STEP3:
-Continuously display the values when there is connection.
-Five parameters have been requested every time.
+**STEP3:**\
+Continuously display the values when there is connection.\
+Five parameters have been requested every time.\
 There is delay of 0.3 seconds between each parameter request because
 Only 5 requests can be done from  in 1 second .\
 The parameters we displayed are :\
@@ -72,7 +72,7 @@ to  fuel_level and fuel_type.\
 
 
 
-#Step4:
+**Step4:**\
 We are continuously displaying the values of the parameters when is 
 an  available connection between obd and raspberry pi.\
 Now we store the values that are requested into a text file until there is a connection between raspberry pi and OBD .\
