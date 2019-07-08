@@ -14,14 +14,13 @@ Checking the communication between obd and raspberry pi.
 Refer to code(obd_port_connection).
 We are using pyobd library for this task.
 
-####### image##########
 
 STEP2:
 Reading the parameter value from obd and displaying in 
 Raspberry pi terminal .
 We are communicating with raspberry pi in the car using ssh 
 Refer to code(test.py).
-##### image #######
+
 
 
 STEP3:
